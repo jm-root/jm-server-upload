@@ -1,0 +1,33 @@
+{
+  "name": "jm-server-upload",
+  "version": "1.0.0",
+  "description": "upload plugin for jm-server",
+  "main": "./lib/index",
+  "scripts": {
+    "start": "jm-server",
+    "cluster": "jm-server --cluster",
+    "test": "node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://git.jamma.cn/play/jm-server-upload.git"
+  },
+  "keywords": [
+    "javascript",
+    "jm-server-upload"
+  ],
+  "author": {
+    "name": "Jeff YU"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "http://git.jamma.cn/play/jm-server-upload/issues"
+  },
+  "homepage": "http://git.jamma.cn/play/jm-server-upload",
+  "dependencies": {
+    "multer": "^1.3.0"
+  },
+  "devDependencies": {
+    "jm-server": "~1.0.2"
+  }
+}
